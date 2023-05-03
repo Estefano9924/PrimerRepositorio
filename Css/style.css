@@ -1,0 +1,113 @@
+    /*colors
+    gris 303030
+    verde claro: 68A063
+    verde oscuro 3c873a
+    */
+
+
+    header div.container-fluid {
+        background-color: #303030;
+    }
+
+    main .container.img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    main .container-fluid {
+        background-color: #303030;
+    }
+
+    .navbar-brand a img {
+        width: 40px;
+    }
+
+    .navbar-brand a {
+        text-decoration: none;
+        font-weight: 700;
+        color: #3c873a;
+    }
+
+    .navbar ul li a {
+        color: white;
+    }
+
+    .row .col-md-4 .img-fluid {
+        width: 300px;
+        height: 200px;
+    }
+
+    @media (max-width: 576px) {
+        .row .col-md-4 .img-fluid {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .card-img {
+        width: 400px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 576px) and (max-width: 768px) {
+        .card-img {
+            width: 200px;
+            height: 300px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .card-img-overlay {
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        color: antiquewhite;
+        background-color: rgba(0, 0, 0, 0.7);
+        visibility: hidden;
+    }
+
+    .col-sm-12:hover .card-img-overlay {
+        visibility: visible;
+    }
+
+    .container .col .img {
+        width: 50px !important;
+        height: 50px !important;
+        margin: 10px;
+    }
+
+    footer .container-fluid {
+        background-color: #3c873a;
+    }
+
+    footer p {
+        font-size: larger;
+        font-weight: bold;
+        color: black;
+    }
+
+    .nav-link :hover {
+        color: black;
+        text-decoration: underline;
+    }
